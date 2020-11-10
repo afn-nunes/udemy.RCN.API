@@ -66,6 +66,7 @@ namespace RCN.API
                   });   
                 }  
             });
+            services.AddApplicationInsightsTelemetry("bb573af5-64a3-47d5-9a0c-5b5456a74c17");
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
